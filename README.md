@@ -1,1 +1,2 @@
-# sergiosbot worflow for heroku app: data and predictions regarding his trading bot
+# SergiosBot: ## containing the data used by PotBot: a CNNLSTM dynamic ensemble network to forecast bitcoin price. 
+
