@@ -15,4 +15,4 @@ whether to withold the amount or keep the investment.
 Sergiosbot's brain consists of two parts: 
 
 * An ensemble of CNN-LSTM called "Oracles". Each net predicts the closing price of the next hour, and the prediction is made by averaging each contribution.
-* A trading bot called PotBot. Potbot takes as inputs a series of parameters to decide whether to hold or sell. At this time its decision is made if the price for the next hour is at least 2% different from the current. 
+* A trading bot called PotBot. Potbot takes as inputs a series of parameters to decide whether to hold or sell. At this time its decision is made if the predicted price for the next hour is at least 2% different from the current. 
