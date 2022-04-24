@@ -16,3 +16,7 @@ Sergiosbot's brain consists of two parts:
 
 * An ensemble of CNN-LSTM called "Oracles". Each net predicts the closing price of the next hour, and the prediction is made by averaging each contribution.
 * A trading bot called PotBot. Potbot takes as inputs a series of parameters to decide whether to hold or sell. At this time its decision is made if the predicted price for the next hour is at least 2% different from the current. 
+
+## To do
+
+Version 2.0 of the bot will include a preliminary training of the oracles on the new data provided by the "previous_price" Series, thus increasing the ability of the bot in forecasting bitcoin price. To do so, a new file will be added to the current repository, called "Oracles", containing the .h5 files associated with each net. 
