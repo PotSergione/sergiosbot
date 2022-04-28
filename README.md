@@ -1,5 +1,5 @@
 # SergiosBot: 
-## containing the data used by PotBot: a CNNLSTM dynamic ensemble network to forecast bitcoin price. 
+## containing the data used by PotBot: a CNNLSTM network to forecast bitcoin price. 
 
 * investment_data.csv = contains the current amount of euro invested
 * holding.csv = contains the current amount of euro not invested
